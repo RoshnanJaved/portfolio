@@ -44,20 +44,20 @@ const HomeComponent = () => {
               passionate and dedicated to my work.
             </p>
             <div className="home-button-box d-flex align-items-center">
-              <button className="rounded-pill position-relative">
+              <button className="rounded-pill position-relative" >
                 About Me
               </button>
               <div className="d-flex home-icon-box gap-3">
-                <a href="">
+                <a href="#">
                   <FaFacebookF />
                 </a>
-                <a href="">
+                <a href="#">
                   <FaTwitter />
                 </a>
-                <a href="">
+                <a href="#">
                   <FaLinkedinIn />
                 </a>
-                <a href="">
+                <a href="#">
                   <FaBehance />
                 </a>
               </div>

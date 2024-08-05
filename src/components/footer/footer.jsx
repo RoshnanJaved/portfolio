@@ -12,10 +12,10 @@ const FooterComponent = () => {
         Developed with love by <span>Shtheme</span> © 2022
         </p>
         <div className="d-flex gap-5 align-items-center">
-            <a href="">
+            <a href="#">
             Terms & Condition
             </a>
-            <a href="">
+            <a href="#">
             Privacy Policy
             </a>
         </div>

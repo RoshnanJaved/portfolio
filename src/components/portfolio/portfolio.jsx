@@ -86,14 +86,14 @@ const PortfolioComponent = () => {
 
         <img
           src={backgroundImg1}
-          alt=""
+          alt="not found"
           className="position-absolute backgroundImg1"
           data-aos="fade-up"
           data-aos-delay="600"
         />
         <img
           src={backgroundImg2}
-          alt=""
+          alt="not found"
           className="position-absolute backgroundImg2"
           data-aos="fade-up"
           data-aos-delay="800"

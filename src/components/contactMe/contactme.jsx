@@ -102,7 +102,7 @@ const ContactmeComponent = () => {
                 className="rounded-3 mt-3"
                 id=""
               ></textarea>
-              <button className="rounded-pill mt-2">Submit Now</button>
+              <button className="rounded-pill mt-2" href="#">Submit Now</button>
             </form>
           </Col>
         </Row>
@@ -117,18 +117,19 @@ const ContactmeComponent = () => {
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             className="map"
+             title="Unique Title"
           ></iframe>
         </div>
         <img
           src={Img1}
-          alt=""
+          alt="not found"
           className="position-absolute bg-img-1"
           data-aos="fade-right"
           data-aos-delay="800"
         />
         <img
           src={Img2}
-          alt=""
+          alt="not found"
           className="position-absolute bg-img-2"
           data-aos="fade-left"
           data-aos-delay="1000"

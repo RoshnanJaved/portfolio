@@ -25,7 +25,7 @@ const AboutMeComponent = () => {
       <Container>
         <Row className="d-flex aboutme-cont">
           <Col md={6} className="aboutme-img px-5 position-relative" data-aos="fade-right">
-            <img src={groupImg} alt="" />
+            <img src={groupImg} alt="not found" />
             <div className="rounded position-absolute text-div d-flex align-items-center gap-3" data-aos="zoom-in" data-aos-delay="200">
               <h4 className="m-0">18</h4>
               <p className="m-0">Years of Success</p>
@@ -41,7 +41,7 @@ const AboutMeComponent = () => {
             <p className="common-para">
               Hello there! I am a web designer, and I am very passionate and dedicated to my work. With 20 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.
             </p>
-            <button className="rounded-pill position-relative">
+            <button className="rounded-pill position-relative" >
               Hire Me
             </button>
           </Col>

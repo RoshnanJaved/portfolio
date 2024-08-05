@@ -41,7 +41,7 @@ const ServicesComponent = () => {
               key={index}
             >
               <div className="icon-box d-flex justify-content-center align-items-center">
-                <img src={data.img} alt="" />
+                <img src={data.img} alt="no found" />
               </div>
               <h3>{data.heading}</h3>
               <h4 className="my-3">

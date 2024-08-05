@@ -23,8 +23,8 @@ const MyblogComponent = () => {
   return (
     <div className="Myblog-page position-relative overflow-hidden" id="Blog">
       <Container className="md-px-4 md-ps-4">
-        <img src={Img1} className="position-absolute bg-img-1" alt="" data-aos="fade-right" />
-        <img src={Img2} className="position-absolute bg-img-2" alt="" data-aos="fade-left" />
+        <img src={Img1} className="position-absolute bg-img-1" alt="not found" data-aos="fade-right" />
+        <img src={Img2} className="position-absolute bg-img-2" alt="not found" data-aos="fade-left" />
         <div className="text-center" data-aos="fade-down">
           <h3 className="orange-heading mb-2">From My Blog</h3>
           <h2 className="white-heading">
@@ -43,7 +43,7 @@ const MyblogComponent = () => {
               data-aos-delay={index * 200}
             >
               <div className="position-relative blog-img-box rounded-4 overflow-hidden">
-                <img src={data.img} alt="" />
+                <img src={data.img} alt="not found" />
                 <div className="blogDate text-center position-absolute rounded-4">
                   <h4>19</h4>
                   <span>Aprail</span>
@@ -69,7 +69,7 @@ const MyblogComponent = () => {
               placeholder="Your email here"
               className="border-0 h-100"
             />
-            <button className="border-0">Send Now</button>
+            <button className="border-0" href="#">Send Now</button>
           </Col>
         </Row>
       </Container>

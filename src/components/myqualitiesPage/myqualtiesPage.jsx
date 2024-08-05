@@ -29,10 +29,10 @@ const MyqualtiesComponent = () => {
           <Col md={4} data-aos="fade-up" data-aos-delay="100">
             <div className="quality-box px-3">
               <div className="quality-icon position-relative text-center mb-4">
-                <img src={arrowIcon} alt="" className="icon" />
+                <img src={arrowIcon} alt="not found" className="icon" />
                 <img
                   src={arrowIconBackground}
-                  alt=""
+                  alt="not found"
                   className="position-absolute icon-background"
                 />
               </div>
@@ -48,10 +48,10 @@ const MyqualtiesComponent = () => {
           <Col md={4} data-aos="fade-up" data-aos-delay="200">
             <div className="quality-box px-3">
               <div className="quality-icon position-relative text-center mb-4">
-                <img src={brushIcon} alt="" className="icon" />
+                <img src={brushIcon} alt="not found" className="icon" />
                 <img
                   src={brushIconBackground}
-                  alt=""
+                  alt="not found"
                   className="position-absolute icon-background"
                 />
               </div>
@@ -67,10 +67,10 @@ const MyqualtiesComponent = () => {
           <Col md={4} data-aos="fade-up" data-aos-delay="300">
             <div className="quality-box px-3">
               <div className="quality-icon position-relative text-center mb-4">
-                <img src={bulbIcon} alt="" className="icon" />
+                <img src={bulbIcon} alt="not found" className="icon" />
                 <img
                   src={bulbIconBackground}
-                  alt=""
+                  alt="not found"
                   className="position-absolute icon-background"
                 />
               </div>

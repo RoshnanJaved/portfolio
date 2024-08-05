@@ -101,7 +101,7 @@ const SkillsComponent = () => {
       </Container>
       <img
         src={Bgimg}
-        alt=""
+        alt="not found"
         className="background-img position-absolute"
         data-aos="fade-up"
       />
