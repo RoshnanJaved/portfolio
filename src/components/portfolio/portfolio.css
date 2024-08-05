@@ -1,0 +1,74 @@
+.Portfolio-page {
+    background: #2b2d33;
+    padding: 100px 0px 80px 0px;
+    width: 100%;
+    overflow: hidden !important;
+  }
+  
+  .Portfolio-page .backgroundImg1 {
+    top: 48px;
+    left: 57px;
+    width: 134px;
+  }
+  
+  .Portfolio-page .backgroundImg2 {
+    bottom: 0px;
+    right: 40px;
+    width: 230px;
+  }
+  
+  .Portfolio-page .portfolio-filter {
+    margin-top: 80px !important;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .Portfolio-page .filter-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 400;
+  }
+  
+  .Portfolio-page .img-box {
+    width: 100%;
+    overflow: hidden !important;
+    cursor: pointer;
+    z-index: 1;
+    margin-bottom: 16px;
+  }
+  
+  .Portfolio-page .img-box:hover img {
+    transform: scale(1.2);
+    transition: all ease 0.4s;
+  }
+  
+  .Portfolio-page .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .my-masonry-grid {
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+  }
+  
+  .my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+  }
+  
+  @media screen and (max-width: 991.99px) {
+    .Portfolio-page .portfolio-filter {
+      width: 100% !important;
+    }
+  }
+  
+  @media screen and (max-width: 767.99px) {
+    .Portfolio-page .img-box {
+      width: 100% !important;
+    }
+  }
+  

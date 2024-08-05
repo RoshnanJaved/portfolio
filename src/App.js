@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+// importing Navbar 
+import NavbarComp from './components/navbar/navbar';
+// importing HomeComponent
+import HomeComponent from './components/homePage/homePage';
+// importing myqualities-page
+import MyqualtiesComponent from './components/myqualitiesPage/myqualtiesPage';
+// importing AboutMeComponent
+import AboutMeComponent from './components/aboutmePage/aboutmePage';
+// importing portfolioComponent 
+import PortfolioComponent from './components/portfolio/portfolio';
+// importing SkillsComponent 
+import SkillsComponent from './components/skillsPage/skillsComponent';
+// importing ServicesComponent
+import ServicesComponent from './components/services/services';
+// importing myBlogsComponent
+import MyblogComponent from './components/blogpage/myblog';
+// importing TestimonialsComponent
+import TestimonialsComponent from './components/testimonials/testimonials';
+// importing Contactme-page
+import ContactmeComponent from './components/contactMe/contactme';
+// importing FooterComponent
+import FooterComponent from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarComp />
+      <HomeComponent />
+      <MyqualtiesComponent />
+      <AboutMeComponent/>
+      <PortfolioComponent/>
+      <SkillsComponent/>
+      <ServicesComponent/>
+      <TestimonialsComponent/>
+      <MyblogComponent/>
+      <ContactmeComponent/>
+      <FooterComponent/>
     </div>
   );
 }

@@ -1,0 +1,49 @@
+.myqualities-page {
+    background: #2b2d33;
+    padding: 230px 0px 80px 0px;
+    overflow: hidden !important;
+}
+
+.myqualities-page .quality-icon .icon {
+    width: 45px;
+    height: 45px;
+}
+
+.myqualities-page .quality-icon .icon-background {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85px;
+    height: 85px;
+}
+
+.quality-text-box h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0px 15px 0px;
+    font-family: "Dosis", sans-serif;
+
+}
+
+@media screen and (max-width:992.99px) {
+    .quality-box {
+        padding: 0px !important;
+    }
+
+    .myqualities-page {
+        padding: 150px 0px 100px 0px;
+
+    }
+}
+
+@media screen and (max-width:767.99px) {
+    .myqualities-page {
+        flex-direction: column-reverse;
+    }
+
+    .qualities-cont {
+        gap: 50px;
+    }
+
+}

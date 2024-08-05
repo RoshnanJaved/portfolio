@@ -1,0 +1,24 @@
+.Footer-page {
+    background: #3f4453;
+    padding: 57px 0px 61px 0px;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.Footer-page p {
+    color: #b9b5c9;
+}
+
+.Footer-page span {
+    font-weight: 600;
+}
+.Footer-page a {
+    text-decoration: none;
+    color: #b9b5c9;
+}
+
+@media screen and (max-width:767.99px) {
+    .footer-cont {
+        justify-content: center !important;
+    }
+}

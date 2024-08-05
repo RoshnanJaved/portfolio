@@ -1,0 +1,124 @@
+.Testimonial-page {
+    background: #2b2d33;
+    padding: 100px 0px 80px 0px;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.Testimonial-page .top-box {
+    margin-bottom: 70px;
+}
+
+.Testimonial-page .swiper-slide {
+    text-align: center;
+}
+
+.Testimonial-page .swiper {
+    width: 60%;
+    padding-bottom: 100px;
+}
+
+.Testimonial-page .swiper .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: #f75023 !important;
+    border: 2px solid #f75023 !important;
+    margin: 0px 5px;
+}
+
+
+
+.Testimonial-page .swiper-slide p:nth-of-type(1) {
+    font-size: 16px;
+    color: #B9B5C9;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+}
+
+.Testimonial-page .icon-img {
+    width: 65px;
+    height: 65px;
+}
+
+.img-box-testimonials {
+    width: 60px;
+    height: 60px;
+}
+
+.Testimonial-page .bottom-box h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 1px;
+}
+
+.Testimonial-page .bottom-box p {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: 400 !important;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.img-box-testimonials .img-testimonials {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.company-Cont {
+    margin: 150px auto 50px auto;
+}
+
+.company-box {
+    padding: 65px 0px;
+    border-color: #555555 !important;
+    border-width: 2px !important;
+}
+
+.company-box:nth-of-type(1) {
+    border-top-left-radius: 16px;
+}
+
+.company-box:nth-of-type(4) {
+    border-top-right-radius: 16px;
+}
+
+.company-box:nth-of-type(5) {
+    border-bottom-left-radius: 16px;
+}
+
+.company-box:nth-of-type(8) {
+    border-bottom-right-radius: 16px;
+}
+
+
+
+
+.Testimonial-bg-img {
+    top: 0px;
+    left: 0px;
+    width: 280px;
+}
+
+@media screen and (max-width:991.99px) {
+    .swiper {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:767.99px) {
+    .Testimonial-page {
+        padding-bottom: 0px !important;
+    }
+    .company-Cont {
+        gap: 35px;
+        margin-top: 100px !important;
+    }
+
+    .company-box {
+        border: 2px solid #555555 !important;
+        border-radius: 16px;
+    }
+}

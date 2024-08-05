@@ -1,0 +1,106 @@
+.Service-page {
+    background: #2b2d33;
+    padding: 100px 0px 80px 0px;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.service-card {
+    background: #4b4f5c;
+    padding: 45px;
+    width: 530px;
+    text-align: center;
+}
+
+.Service-page .icon-box {
+    width: 95px;
+    height: 95px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px auto 20px auto;
+}
+
+.service-card:nth-of-type(1) .icon-box {
+    background: url(../../assets/imgs/backgrounds/1-2.png);
+
+}
+
+.service-card:nth-of-type(2) .icon-box {
+    background: url(../../assets/imgs/backgrounds/2-2.png);
+
+}
+
+.service-card:nth-of-type(3) .icon-box {
+    background: url(../../assets/imgs/backgrounds/3-1.png);
+
+}
+
+.service-card:nth-of-type(4) .icon-box {
+    background: url(../../assets/imgs/backgrounds/4.png);
+
+}
+
+.Service-page .icon-box img {
+    width: 45px;
+    height: 45px;
+}
+
+.service-card-wrapper {
+    margin-top: 100px;
+}
+
+.service-card h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Dosis", sans-serif;
+}
+
+.service-card h4 {
+    color: #fff;
+    font-size: 19px;
+    font-family: "Dosis", sans-serif;
+}
+
+.service-card h4 span {
+    font-size: 22px;
+    color: #f75023;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1199.99px) {
+    .service-card-wrapper {
+        margin: 100px 0px 0px 0px !important;
+    }
+
+    .service-card {
+        padding: 45px;
+        width: 444px;
+    }
+
+}
+
+@media screen and (max-width: 991.99px) {
+    .service-card {
+        width: 100% !important;
+    }
+    
+}
+@media screen and (max-width: 767.99px) {
+    .service-card {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 575.99px) {
+    .service-card {
+        flex-wrap: wrap;
+        gap: 30px !important;
+        justify-content: center !important;
+    }
+    .service-card-text {
+        width: 100%;
+    }
+    
+}
